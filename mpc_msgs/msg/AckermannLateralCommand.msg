@@ -1,0 +1,3 @@
+builtin_interfaces/Time stamp
+float64 steering_tire_angle
+float64 steering_tire_rotation_rate

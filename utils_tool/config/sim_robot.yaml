@@ -1,0 +1,22 @@
+/sim_robot:
+   ros__parameters:
+      origin_x: -3.47
+      origin_y: -2.5
+      origin_phi: 90.0
+
+/visualization_tool:
+   ros__parameters:
+      vehicle_length: 1.0
+      vehicle_width: 0.75
+      vehicle_height: 1.5
+      vehicle_a: 0.8
+      vehicle_r: 0.91
+      vehicle_g: 0.52
+      vehicle_b: 0.10
+      text_length: 0.4
+      text_width: 0.4
+      text_height: 0.4
+      text_a: 0.8
+      text_r: 0.91
+      text_g: 0.52
+      text_b: 0.10

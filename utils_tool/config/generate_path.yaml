@@ -1,0 +1,71 @@
+/path_generator:
+   ros__parameters:
+      traj_type: "line"
+      sin_cycle: 18.85
+      sin_amplitude: 10.0
+      resulation: 0.04
+      direction: 1
+      generate_from_file: true
+      generate_mode: 4
+      wheel_base: 0.65
+      max_steer: 20.0
+      path_length: 10.0
+      path_heading: 0.0
+      path_folder: "/home/dwayne/workspace/navigation/nav2_ws/src/navigation/guided_hybrid_planner/data/exp_path"
+      # path_folder: "/home/dwayne/workspace/navigation/nav2_ws/src/navigation/guided_hybrid_planner/data/final_path/"
+      # path_filename: "coor_record.txt"
+      # path_filename: "2024-01-07-21-32-32-715.txt"
+      # path_filename: "2024-01-29-20-11-28-724.txt"
+      # path_filename: "after_smooth.txt"
+      # path_filename: "follow.txt"
+      path_filename: "act_follow_path.txt"
+
+/sim_robot:
+   ros__parameters:
+      # origin_x: -1.0087
+      # origin_y: 3.33567
+      # origin_phi: -78.902017967465664079438738994504
+      # -3.47 -2.5 1.57
+      # origin_x: -3.47
+      # origin_y: -2.5 
+      # origin_phi: 90.0
+      origin_x: 0.0
+      origin_y: 0.0
+      origin_phi: 0.0
+      # origin_x: 0.0
+      # origin_y: 0.0
+      # origin_phi: -100.0
+
+/visualization_tool:
+   ros__parameters:
+      vehicle_length: 1.0
+      vehicle_width: 0.75
+      vehicle_height: 1.5
+      vehicle_a: 0.8
+      vehicle_r: 0.91
+      vehicle_g: 0.52
+      vehicle_b: 0.10
+      text_length: 0.4
+      text_width: 0.4
+      text_height: 0.4
+      text_a: 0.8
+      text_r: 0.91
+      text_g: 0.52
+      text_b: 0.10
+
+
+      obs_length: 0.2
+      obs_width: 0.4
+      obs_height: 1.5
+      first_obs_pose_x: 4.23
+      first_obs_pose_y: 0.13
+      first_obs_pose_theta: 0.0
+      second_obs_pose_x: 51.0
+      second_obs_pose_y: 0.0
+      second_obs_pose_theta: 0.0
+
+      third_obs_pose_x: 51.0
+      third_obs_pose_y: 1.34
+      forth_obs_pose_x: 51.0
+      forth_obs_pose_y: 0.2
+

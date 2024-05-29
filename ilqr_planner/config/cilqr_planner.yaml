@@ -1,0 +1,22 @@
+/cilqr_planner:
+   ros__parameters:
+      scaleFactor: 50.0
+      obstacleFactor: 0.1
+      rotCost: 0.1
+      w_Q: 100.0
+      w_R: 1.0
+      wheel_base: 0.098
+
+      begin_pose_x : 0.0
+      begin_pose_y : 0.0
+      begin_pose_theta : 0.0
+      end_pose_x : 3.0
+      end_pose_y : 3.0
+      end_pose_theta : 0.0
+      obs_radius: 0.425
+      first_obs_pose_x: 0.75
+      first_obs_pose_y: 0.75
+      second_obs_pose_x: 1.5
+      second_obs_pose_y: 1.5
+      third_obs_pose_x: 2.25
+      third_obs_pose_y: 2.25

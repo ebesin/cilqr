@@ -1,0 +1,29 @@
+/ilqr_planner:
+   ros__parameters:
+      max_opt_points: 40
+      opt_time_interval: 0.1
+      arrive_dist: 0.01
+      speed: 0.5
+      forward_first_weight_intermediate_state: [10.0,10.0,10.0,0.0,0.0]
+      forward_first_weight_end_state: [1000.0,1000.0,1000.0,0.0,0.0]
+      forward_first_weight_control: [1.0,1.0]
+
+      forward_second_weight_intermediate_state: [10.0,10.0,10.0,0.0,0.0]
+      forward_second_weight_end_state: [100.0,100.0,100.0,0.0,0.0]
+      forward_second_weight_control: [1.0,1.0]
+
+      forward_first_weight_end_vel: 100000.0
+      forward_second_weight_end_vel: 100000.0
+
+      backward_first_weight_intermediate_state: [10.0,10.0,10.0,0.0,0.0]
+      backward_first_weight_end_state: [1000.0,1000.0,10.0,0.0,0.0]
+      backward_first_weight_control: [1.0,1.0]
+
+      backward_second_weight_intermediate_state: [10.0,10.0,10.0,0.0,0.0]
+      backward_second_weight_end_state: [10.0,10.0,10.0,0.0,0.0]
+      backward_second_weight_control: [1.0,1.0]
+
+      backward_first_weight_end_vel: 100000.0
+      backward_second_weight_end_vel: 10000.0
+
+      wheel_base: 0.65
